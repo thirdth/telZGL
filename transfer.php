@@ -12,7 +12,7 @@
 ?>
 <Response>
     <Dial timeout="20">+16159457818</Dial>
-    <Say voice="alice">We are sorry, but no one from Teck for lawyers is available. If you would like to leave a brief message, please do so after the tone.</Say>
+    <Say voice="alice">We're sorry, Zack Glaser Legal is unavailable. If you would like to leave a brief message, please do so after the tone.</Say>
     <Record maxLength="30" action="hello-monkey-handle-recording.php" />
     <Say>Goodbye</Say>
 </Response>
