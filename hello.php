@@ -3,7 +3,8 @@
     echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 ?>
 <Response>
-    <Gather numDigits="1" action="transfer.php" method="POST">
-      <Say voice="alice" language="en">Welcome to Zack Glaser Legal. If you would like to speak to a representative, please press 1, now</Say>
-    </Gather>
+  <Dial timeout="20">+16159457818</Dial>
+  <Say voice="alice">We're sorry, Zack Glaser Legal is unavailable. If you would like to leave a brief message, please do so after the tone.</Say>
+  <Record maxLength="180" />
+  <Say voice="alice">Thank you. Zack Glaser Legal will get back to your shortly. Goodbye</Say>
 </Response>
