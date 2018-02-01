@@ -17,11 +17,6 @@ use Twilio\Rest\Client;
      *    localhost:8888/call.php in a web browser.
      */
 
-    // Step 1: Get the Twilio-PHP library from twilio.com/docs/libraries/php,
-    // following the instructions to install it with Composer.
-    require_once "vendor/autoload.php";
-    use Twilio\Rest\Client;
-
     // Step 3: Instantiate a new Twilio Rest Client
     $client = new Client($TWsid, $TWtoken);
 
