@@ -7,7 +7,6 @@ $toNumberList=explode(",",$params);
 ?>
 <Response>
     <?php
-  try {
     for($i=0; $i < sizeof($toNumberList) ;$i++) { $to=$toNumberList[$i]; ?>
         <Dial timeout="20">
 
