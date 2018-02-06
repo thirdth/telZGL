@@ -15,7 +15,7 @@ $toNumberList=explode(",",$params);
             </Sip>
 
         </Dial>
-        <Play>http://tel.zackglaserlegal.com/ZGLMessage.m4a</Play>
+        <Play>http://tel.zackglaserlegal.com/ZGLMessage.mp3</Play>
         <Record maxLength="180" />
         <Say voice="alice">Thank you. Zack Glaser Legal will get back to your shortly. Goodbye</Say>
         <?php } ?>
