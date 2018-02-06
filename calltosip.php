@@ -15,7 +15,7 @@ $toNumberList=explode(",",$params);
             </Sip>
 
         </Dial>
-        <Say voice="alice">We're sorry, Zack Glaser Legal is unavailable. If you would like to leave a brief message, please do so after the tone.</Say>
+        <Play>http://tel.zackglaserlegal.com/ZGLMessage.m4a</Play>
         <Record maxLength="180" />
         <Say voice="alice">Thank you. Zack Glaser Legal will get back to your shortly. Goodbye</Say>
         <?php } ?>
